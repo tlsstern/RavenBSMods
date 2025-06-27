@@ -41,8 +41,8 @@ Once Forge is installed, you can add mods.
 
 ### Downloading Mods
 
-### Locating Your `mods` Folder
-Forge automatically creates a `mods` folder inside your `.minecraft` directory upon its first launch. Here’s how to find it:
+### Download the Mods from the Mods folder in the GitHub Repo
+Forge automatically creates a `mods` folder inside your `.minecraft` directory upon its first launch.
 
 * **Windows:** Press `Win + R`, type `%appdata%\.minecraft`, and press Enter.
 
@@ -51,9 +51,6 @@ If you have run Forge at least once, you will see a folder named **`mods`** (If 
 ### Installing the Mods
 1.  Take the mods `.jar` you downloaded.
 2.  Drag and drop them directly into the **`mods`** folder.
-3.  That's it! The mods are now "installed."
-
-Launch Minecraft using your Forge profile. The game will load all the mods.
 ---
 
 ## 3. Tips
@@ -62,3 +59,4 @@ Launch Minecraft using your Forge profile. The game will load all the mods.
   * **Windows:** Press `Win + R`, type `%appdata%\.minecraft\keystrokes`, and press Enter.
   * You can use public configs from Raven BS V2 [Discord server](https://discord.gg/VvjdSCgyEb)
 * **AutoGG** Press `Win + R`, type `%appdata%\.minecraft\config`, and press Enter. There locate the Utils config file and change the `AutoGG=GG` to `AutoGG= ` Test with `1st - Lava `
+* **ViaForge** As of 27/06/2025 Connect to viaforge version 1.20.1. Viaforge is localte in the Servers tab in the bottom left.
