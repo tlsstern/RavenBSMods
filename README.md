@@ -20,7 +20,7 @@ This guide provides step-by-step instructions for installing Minecraft Forge and
 Forge is a mod-loading tool that allows you to play Minecraft with custom modifications.
 
 ### Requirements
-* You need to run the vanilla version of Minecraft you intend to mod **at least once** before installing Forge. For example, if you want to install Forge for Minecraft 1.20.1, you must first launch Minecraft 1.20.1 from the launcher.
+* You need to run the vanilla version of Minecraft you intend to mod **at least once** before installing Forge. For example, if you want to install Forge for Minecraft 1.8.9, you must first launch Minecraft 1.8.9 from the launcher.
 
 ### Installation Steps
 1.  **Download Forge:** Go to the official [Minecraft Forge download page](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.8.9.html).
