@@ -59,4 +59,4 @@ If you have run Forge at least once, you will see a folder named **`mods`** (If 
   * **Windows:** Press `Win + R`, type `%appdata%\.minecraft\keystrokes`, and press Enter.
   * You can use public configs from Raven BS V2 [Discord server](https://discord.gg/VvjdSCgyEb)
 * **AutoGG** Press `Win + R`, type `%appdata%\.minecraft\config`, and press Enter. There locate the Utils config file and change the `AutoGG=GG` to `AutoGG= ` Test with `1st - Lava `
-* **ViaForge** As of 27/06/2025 Connect to viaforge version 1.20.1. Viaforge is localte in the Servers tab in the bottom left.
+* **ViaForge** Is patched
