@@ -15,14 +15,14 @@
   "AntiDebuff": {
     "toggled": true,
     "key": 0,
-    "hidden": false,
+    "hidden": true,
     "blindness": true,
     "nausea": true
   },
   "AntiFireball": {
-    "toggled": false,
+    "toggled": true,
     "key": 0,
-    "hidden": false,
+    "hidden": true,
     "range": 5.0,
     "fov": 360,
     "rotations": true,
@@ -54,7 +54,7 @@
     "hidden": true,
     "min-cps": 15,
     "max-cps": 17,
-    "block-hit": false,
+    "block-hit": true,
     "weapons-only": false,
     "allow-tools": false,
     "break-blocks": true
@@ -76,7 +76,7 @@
     "sneak-only": false
   },
   "BedESP": {
-    "toggled": true,
+    "toggled": false,
     "key": 0,
     "hidden": true,
     "mode": "DEFAULT",
@@ -88,10 +88,10 @@
   },
   "BedNuker": {
     "toggled": false,
-    "key": 0,
+    "key": 48,
     "hidden": false,
     "mode": "LEGIT",
-    "range": 5.0,
+    "range": 5.5,
     "speed": 20,
     "ground-spoof": false,
     "ignore-velocity": false,
@@ -178,7 +178,7 @@
     "blocks-only": true
   },
   "ESP": {
-    "toggled": true,
+    "toggled": false,
     "key": 0,
     "hidden": false,
     "mode": "3D",
@@ -212,9 +212,9 @@
     "mode": "GAMMA"
   },
   "GhostHand": {
-    "toggled": false,
+    "toggled": true,
     "key": 0,
-    "hidden": false,
+    "hidden": true,
     "team-only": true,
     "ignore-weapons": false
   },
@@ -222,7 +222,7 @@
     "toggled": true,
     "key": 0,
     "hidden": true,
-    "color": "CUSTOM1",
+    "color": "CHROMA",
     "color-speed": 1.0,
     "color-saturation": 100,
     "color-brightness": 100,
@@ -275,7 +275,7 @@
     "toggled": true,
     "key": 0,
     "hidden": false,
-    "mode": "LEGIT"
+    "mode": "HYPIXEL"
   },
   "ItemESP": {
     "toggled": true,
@@ -307,15 +307,15 @@
     "reach-only": false
   },
   "KillAura": {
-    "toggled": false,
-    "key": 0,
+    "toggled": true,
+    "key": 35,
     "hidden": false,
-    "mode": "SWITCH",
+    "mode": "SINGLE",
     "sort": "HEALTH",
     "auto-block": "HYPIXEL",
-    "auto-block-require-press": false,
+    "auto-block-require-press": true,
     "auto-block-range": 6.0,
-    "swing-range": 4.0,
+    "swing-range": 3.5,
     "attack-range": 3.0,
     "fov": 360,
     "min-aps": 10,
@@ -323,8 +323,8 @@
     "switch-delay": 150,
     "rotations": "SILENT",
     "move-fix": "SILENT",
-    "smoothing": 5,
-    "angle-step": 180,
+    "smoothing": 47,
+    "angle-step": 130,
     "through-walls": true,
     "require-press": false,
     "allow-mining": true,
@@ -337,7 +337,7 @@
     "mobs": false,
     "animals": false,
     "golems": true,
-    "silverfish": true,
+    "silverfish": false,
     "teams": true,
     "show-target": "NONE",
     "debug-log": "NONE"
@@ -466,7 +466,7 @@
   },
   "Scaffold": {
     "toggled": false,
-    "key": 0,
+    "key": 46,
     "hidden": false,
     "rotations": "DEFAULT",
     "move-fix": "SILENT",
@@ -474,9 +474,9 @@
     "ground-motion": 100,
     "air-motion": 100,
     "speed-motion": 100,
-    "tower": "TELLY",
+    "tower": "NONE",
     "tower-speed": 1.0,
-    "keep-y": "TELLY",
+    "keep-y": "NONE",
     "keep-y-on-press": false,
     "multi-place": false,
     "safe-walk": false,
@@ -487,7 +487,7 @@
     "toggled": false,
     "key": 25,
     "hidden": false,
-    "text": ".c l semi",
+    "text": ".c l closet",
     "delay": 0.0,
     "random": 0
   },
@@ -570,7 +570,7 @@
     "key": 19,
     "hidden": false,
     "mode": "DELAY",
-    "chance": 50,
+    "chance": 100,
     "horizontal": 100,
     "vertical": 100,
     "explosions-horizontal": 100,

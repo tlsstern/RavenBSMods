@@ -15,14 +15,14 @@
   "AntiDebuff": {
     "toggled": true,
     "key": 0,
-    "hidden": false,
+    "hidden": true,
     "blindness": true,
     "nausea": true
   },
   "AntiFireball": {
-    "toggled": false,
+    "toggled": true,
     "key": 0,
-    "hidden": false,
+    "hidden": true,
     "range": 5.0,
     "fov": 360,
     "rotations": true,
@@ -54,7 +54,7 @@
     "hidden": true,
     "min-cps": 15,
     "max-cps": 17,
-    "block-hit": false,
+    "block-hit": true,
     "weapons-only": false,
     "allow-tools": false,
     "break-blocks": true
@@ -76,7 +76,7 @@
     "sneak-only": false
   },
   "BedESP": {
-    "toggled": true,
+    "toggled": false,
     "key": 0,
     "hidden": true,
     "mode": "DEFAULT",
@@ -87,12 +87,12 @@
     "obsidian": true
   },
   "BedNuker": {
-    "toggled": false,
+    "toggled": true,
     "key": 0,
     "hidden": false,
     "mode": "LEGIT",
     "range": 5.0,
-    "speed": 20,
+    "speed": 30,
     "ground-spoof": false,
     "ignore-velocity": false,
     "surroundings": true,
@@ -127,7 +127,7 @@
   },
   "Blink": {
     "toggled": false,
-    "key": 0,
+    "key": 34,
     "hidden": false,
     "mode": "DEFAULT",
     "ticks": 30
@@ -168,7 +168,7 @@
     "skip-trash": true
   },
   "Eagle": {
-    "toggled": false,
+    "toggled": true,
     "key": 0,
     "hidden": false,
     "min-delay": 1,
@@ -178,7 +178,7 @@
     "blocks-only": true
   },
   "ESP": {
-    "toggled": true,
+    "toggled": false,
     "key": 0,
     "hidden": false,
     "mode": "3D",
@@ -212,9 +212,9 @@
     "mode": "GAMMA"
   },
   "GhostHand": {
-    "toggled": false,
+    "toggled": true,
     "key": 0,
-    "hidden": false,
+    "hidden": true,
     "team-only": true,
     "ignore-weapons": false
   },
@@ -275,10 +275,10 @@
     "toggled": true,
     "key": 0,
     "hidden": false,
-    "mode": "LEGIT"
+    "mode": "HYPIXEL"
   },
   "ItemESP": {
-    "toggled": true,
+    "toggled": false,
     "key": 0,
     "hidden": true,
     "opacity": 25,
@@ -307,7 +307,7 @@
     "reach-only": false
   },
   "KillAura": {
-    "toggled": false,
+    "toggled": true,
     "key": 0,
     "hidden": false,
     "mode": "SWITCH",
@@ -315,7 +315,7 @@
     "auto-block": "HYPIXEL",
     "auto-block-require-press": false,
     "auto-block-range": 6.0,
-    "swing-range": 4.0,
+    "swing-range": 3.0,
     "attack-range": 3.0,
     "fov": 360,
     "min-aps": 10,
@@ -359,7 +359,7 @@
     "toggled": false,
     "key": 0,
     "hidden": false,
-    "mode": "FIREBALL",
+    "mode": "FIREBALL_FLAT",
     "motion": 2.75,
     "speed-motion": 2.5,
     "strafe": 0
@@ -405,7 +405,7 @@
     "toggled": false,
     "key": 0,
     "hidden": false,
-    "mode": "HYPIXEL",
+    "mode": "SPOOF",
     "distance": 3.0,
     "delay": 0
   },
@@ -421,7 +421,7 @@
     "multiplier": 0
   },
   "NoJumpDelay": {
-    "toggled": false,
+    "toggled": true,
     "key": 0,
     "hidden": false,
     "delay": 1
@@ -466,18 +466,18 @@
   },
   "Scaffold": {
     "toggled": false,
-    "key": 0,
+    "key": 46,
     "hidden": false,
-    "rotations": "DEFAULT",
+    "rotations": "BACKWARDS",
     "move-fix": "SILENT",
     "sprint": "NONE",
     "ground-motion": 100,
     "air-motion": 100,
     "speed-motion": 100,
-    "tower": "TELLY",
+    "tower": "NONE",
     "tower-speed": 1.0,
-    "keep-y": "TELLY",
-    "keep-y-on-press": false,
+    "keep-y": "NONE",
+    "keep-y-on-press": true,
     "multi-place": false,
     "safe-walk": false,
     "swing": true,
@@ -485,10 +485,10 @@
   },
   "Spammer": {
     "toggled": false,
-    "key": 25,
+    "key": 0,
     "hidden": false,
-    "text": ".c l semi",
-    "delay": 0.0,
+    "text": "/housing random",
+    "delay": 2.7,
     "random": 0
   },
   "Speed": {
@@ -505,7 +505,7 @@
     "toggled": true,
     "key": 0,
     "hidden": false,
-    "speed": 25,
+    "speed": 30,
     "delay": 0
   },
   "Sprint": {
@@ -570,7 +570,7 @@
     "key": 19,
     "hidden": false,
     "mode": "DELAY",
-    "chance": 50,
+    "chance": 100,
     "horizontal": 100,
     "vertical": 100,
     "explosions-horizontal": 100,
