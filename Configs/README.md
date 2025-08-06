@@ -1,2 +1,2 @@
-# RavenBS Configs
-If you see zNotDiamond in your game do /shout sniped by lava :)
+# Myau Configs
+If you see zNotDiamond in your game do /shout sniped by lava
